@@ -5,9 +5,11 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DirectExchange", "DirectExchange", "{27EBD696-BBB6-4A5D-9ADF-34AFB7F6A20A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectExchange.Producer", "DirectExchange.Producer\DirectExchange.Producer.csproj", "{026E3AEE-3D5D-414A-9139-FA824438867C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchange.Producer", "DirectExchange.Producer\DirectExchange.Producer.csproj", "{026E3AEE-3D5D-414A-9139-FA824438867C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectExchange.Consumer", "DirectExchange.Consumer\DirectExchange.Consumer.csproj", "{5CA9CEE7-A7EF-474C-89DD-3D1A70B88DEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchange.Consumer", "DirectExchange.Consumer\DirectExchange.Consumer.csproj", "{5CA9CEE7-A7EF-474C-89DD-3D1A70B88DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoisonMessage.Consumer", "PoisonMessage.Consumer\PoisonMessage.Consumer.csproj", "{48A45CD5-16B1-468A-9D3A-7576CC16511B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{5CA9CEE7-A7EF-474C-89DD-3D1A70B88DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CA9CEE7-A7EF-474C-89DD-3D1A70B88DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CA9CEE7-A7EF-474C-89DD-3D1A70B88DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A45CD5-16B1-468A-9D3A-7576CC16511B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A45CD5-16B1-468A-9D3A-7576CC16511B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A45CD5-16B1-468A-9D3A-7576CC16511B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A45CD5-16B1-468A-9D3A-7576CC16511B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
